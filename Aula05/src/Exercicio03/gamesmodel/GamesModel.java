@@ -56,12 +56,13 @@ public class GamesModel {
     }
 
     public void visualizar() {
+        System.out.println("-------------------------------------------------------------------------------------------");
         System.out.println("Dados do Jogo");
         System.out.println("Titulo: " + titulo);
         System.out.println("Código: " + codigo);
         System.out.println("Plataforma: " + plataforma);
         System.out.println("Preço: " + preco);
         System.out.println("Data de Lançamento: " + lancamento);
-        System.out.println("-------------------------------------------------------------------------------------------");
+
     }
 }

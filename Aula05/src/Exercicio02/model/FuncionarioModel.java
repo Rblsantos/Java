@@ -55,12 +55,13 @@ public class FuncionarioModel {
         this.telefone = telefone;
     }
     public void visualizar (){
+        System.out.println("-------------------------------------------------------------------------------------------");
         System.out.println("Dados do Funcionário");
         System.out.println("Nome: "+nome);
         System.out.println("Email: "+email);
         System.out.println("Endereço: "+ endereco);
         System.out.println("CPF: "+cpf);
         System.out.println("Telefone: "+telefone);
-        System.out.println("-------------------------------------------------------------------------------------------");
+
     }
 }
